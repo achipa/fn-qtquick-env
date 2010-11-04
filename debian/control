@@ -1,0 +1,14 @@
+Source: fn-qtquick-env
+Section: libs
+Priority: extra
+Maintainer: Attila Csipa <attila.csipa@nokia.com>
+Build-Depends: debhelper (>= 7)
+Standards-Version: 3.8.3
+Homepage: http://forum.nokia.com
+
+Package: fn-qtquick-env
+Architecture: any
+Depends: qt-components-dev, libqtm-dev, libmeegotouch-dev, qt4-47-qmlviewer
+Description: Set up a Qt Quick development environment
+ A metapackage with a little extra spice to install everything needed 
+ to set up a Qt Quick development environment on Ubuntu
